@@ -29,22 +29,22 @@ class C_Line():
   
   def setX1(self, value):
     self.x1 = value
-    self.self.getset_sat.update_set()
+    self.getset_sat.update_set()
     pass
   
   def setX2(self, value):
-    self.__x2__ = value
-    self.self.getset_sat.update_set()
+    self.x2 = value
+    self.getset_sat.update_set()
     pass
 
   def setY1(self, value):
-    self.__y1__ = value
-    self.self.getset_sat.update_set()
+    self.y1 = value
+    self.getset_sat.update_set()
     pass
 
   def setY2(self, value):
-    self.__y2__ = value
-    self.self.getset_sat.update_set()
+    self.y2 = value
+    self.getset_sat.update_set()
     pass
 
   def getLength(self):
