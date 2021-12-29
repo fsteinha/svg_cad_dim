@@ -1,4 +1,6 @@
 import unittest
+import sys
+sys.path.append('../')
 from c_line import C_Line
 
 class Test_Line(unittest.TestCase):
