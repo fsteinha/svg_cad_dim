@@ -21,7 +21,7 @@ class C_Getter_Setter():
 
   def update_get(self):
     """ update getter count (should called with ervery set)"""
-    if (self.get_cnt != None) and (self.set_cnt > self.get_cnt): 
+    if (self.get_cnt == None) or (self.set_cnt > self.get_cnt): 
       self.get_cnt = self.set_cnt
     pass
 

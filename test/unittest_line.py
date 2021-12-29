@@ -4,8 +4,10 @@ sys.path.append('../')
 from c_line import C_Line
 
 class Test_Line(unittest.TestCase):
-  
+  ''' unittest for c_line class'''
+
   def test_length(self):
+    ''' test calcualting the length'''
     c_line = C_Line(0,0,0,0)
     self.assertEqual(c_line.getLength(), 0)
 
@@ -26,6 +28,7 @@ class Test_Line(unittest.TestCase):
     pass
   
   def test_get(self):
+    ''' test getter'''
     c_line = C_Line(0,0,0,0)
     self.assertEqual(c_line.getX1(), 0)
     self.assertEqual(c_line.getY1(), 0)
@@ -57,6 +60,7 @@ class Test_Line(unittest.TestCase):
     self.assertEqual(c_line.getY2(), 100)
 
   def test_set(self):
+    ''' test setter'''
     c_line = C_Line(0,0,0,0)
     c_line.setX1(100)
     self.assertEqual(c_line.getX1(), 100)
