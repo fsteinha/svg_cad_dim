@@ -1,6 +1,7 @@
 import unittest
 from unittest_line import Test_Line
 from unittest_getter_setter import Test_Getter_Setter
+from unittest_i_svg import I_SVG
 
 def suite():
   '''test suite'''
